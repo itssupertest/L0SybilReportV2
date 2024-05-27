@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="32.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tools\Tools.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="CexsData\0x1c2295c6a9d81efb59eadeea35503bb61b346cc9_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0x2b14babf544d552cc0560f6bee3682bbcaec1eeb_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0x62f4116e9269011b16091c729dd844ca11f5605a_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0x9a2dacd7f2aa1365e4b05beb74684b62b03be4fd_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xa4461da370a4f53c439ff7cf9557a44474a5c78b_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xa71264afc65c1922aba2d8aaeb12beda5496810e_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xa8860de26e33ee3756df431bc2537a63db7b55b9_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xc289aedf23d55479f1b9d6bec2f4f8c41805cf5f_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xcbbfd84f0d5b308e8e5ceaabd8df5fea54c0385d_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xf5a80567b556153ed3f3ad05770b259077ffd8c5_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CexsData\0xf963786e856b48065378f888ceec9bcf167883c0_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x01caa92c510a476f1cf25725bcfddb439aba12e3_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x305d147a03937e547ce3c2b376922a1bc905c2b5_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x3b6280e12f19160c8b340a77d8cfb6eb5e32ea77_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x475b709e5c4afd2b75d1f709375a49357123736f_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x480c156ee520ef1e2e35fb516efc73c0baff00e3_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x4a1216aede1781c7eccb1aa27ff0e34f8e7e709d_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x4b8c999ae1607708e7af70b3901a09881c5dfbd3_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x575a13cf4a67e3c070fdb8a7ee65a5a0d025f62f_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x5afe2408d6b6f4ca1855193b40e2cdfe46a9f4fb_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x6b629a133b5d14696be4e721c089d29689e3f25f_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x6f6bbc9dc3633d309360140934cebd49a30f09c2_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x7bb6214ddc5bcf1de5c57cc13ea9b5f422727dda_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x87dffff357220a494dde0fde957b00a7ad37fe35_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0x9fd31718860c837e8e2511acbeb4f1a664ed4b05_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xb356a392fc4f3e31da079cdc14fcd1df23e62a87_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xb5b5943a0aa8526f832fd09b74e6af184ddd532f_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xc7d17978f96382d53f9a9a68d969b274d377c63c_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xd2628b2198fe3ef2f945e48d03f8db43f00be280_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xd29af936ab83793e10fe6c9ef5ce6e81104dd91a_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xed241cab3e1fcac3290f7d44fd1a176b48c5e44e_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xf376e1e42477e1853bb234f990731d6fa4c9cf63_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xf4798123b602f90571f7d1725094b7272e64ac5f_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xf7e6dcad2a1cd68275cf86521c9a5a42523cc0ad_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="WalletsData\0xfc465631ac105754b34ce9e6f40fe414b1c46ae6_history.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="OtherData\" />
+  </ItemGroup>
+
+</Project>
